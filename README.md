@@ -3,7 +3,7 @@
 1. #### 如何运行
 
    - 请确定easyswoole官网demo可以正常运行
-   - https://github.com/2125zyrc/easyswoole_api.git
+   - git clone https://github.com/2125zyrc/easyswoole_api.git
    - cd easyswoole_api
    - php vendor/easyswoole/easyswoole/bin/easyswoole install && 选择N
    - php easyswoole start
