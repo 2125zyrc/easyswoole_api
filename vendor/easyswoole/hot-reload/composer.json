@@ -1,0 +1,25 @@
+{
+    "name": "easyswoole/hot-reload",
+    "description": "auto hot reload manager",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "eValor",
+            "email": "mipone@foxmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "EasySwoole\\HotReload\\": "src/"
+        }
+    },
+    "require": {
+        "easyswoole/spl": "^1.3",
+        "easyswoole/utility": "^1.1",
+        "easyswoole/component": "^2.0"
+    },
+    "require-dev": {
+        "swoole/ide-helper": "^4.4"
+    }
+}

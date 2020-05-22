@@ -1,0 +1,400 @@
+[2020-04-19 10:57:56][debug][error] : [Uncaught Error: Class 'EasySwoole\EasySwoole\WebSocketParser' not found in /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php:30
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /Users/samsun/Desktop/project/easy_swoole_test/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+ at file:/Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php line:30]
+[2020-04-19 11:15:19][debug][error] : [Uncaught Error: Class 'EasySwoole\EasySwoole\WebSocketParser' not found in /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php:30
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/Core.php(130): EasySwoole\EasySwoole\EasySwooleEvent::mainServerCreate(Object(EasySwoole\EasySwoole\Swoole\EventRegister))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/Command/DefaultCommand/Start.php(42): EasySwoole\EasySwoole\Core->createServer()
+#2 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/Command/CommandContainer.php(46): EasySwoole\EasySwoole\Command\DefaultCommand\Start->exec(Array)
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/Command/CommandRunner.php(62): EasySwoole\EasySwoole\Command\CommandContainer->hook('start', Array)
+#4 /Users/samsun/Desktop/project/easy_swoole_test/easyswoole(25): EasySwoole\EasySwoole\Command\CommandRunner->run(Array)
+#5 {main}
+ at file:/Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php line:30]
+[2020-04-19 11:22:57][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:23:00][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:24:56][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:24:58][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:25:06][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:25:20][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:21][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:22][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:23][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:24][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:25][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:26][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:27][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:28][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:29][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:30][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:31][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:32][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:33][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:34][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:35][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:36][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:37][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:38][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:39][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:40][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:41][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:42][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:25:43][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:35][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:36][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:37][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:38][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:39][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:40][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:41][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:42][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:43][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:44][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:45][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:46][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:47][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:48][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:49][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:50][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:51][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:52][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:27:53][debug][warning] : [Object of class EasySwoole\Socket\Bean\Caller could not be converted to string at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:25]
+[2020-04-19 11:32:00][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:32:03][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:32:06][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:32:10][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:32:10][debug][error] : [Uncaught TypeError: Return value of App\WebSocket\WebSocketParser::decode() must be an instance of EasySwoole\Socket\Bean\Caller or null, none returned in /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php:27
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(63): App\WebSocket\WebSocketParser->decode('PING', Object(EasySwoole\Socket\Client\WebSocket))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(37): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#4 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketParser.php line:27]
+[2020-04-19 11:32:40][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:32:42][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 11:32:42][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(37): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-19 12:13:34][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 12:13:38][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 12:13:38][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(37): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-19 12:14:11][debug][warning] : [call_user_func() expects parameter 1 to be a valid callback, class 'EasySwoole\EasySwoole\WebSocketEvent' not found at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php line:111]
+[2020-04-19 12:16:08][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(38): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 20:47:01][debug][error] : [Uncaught Error: Call to undefined function EasySwoole\Redis\Redis() in /Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Redis.php:18
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(22): App\Utils\Redis::init()
+#1 [internal function]: App\WebSocket\WebSocketEvent::onOpen(Object(Swoole\WebSocket\Server), Object(Swoole\Http\Request))
+#2 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Array, Object(Swoole\WebSocket\Server), Object(Swoole\Http\Request))
+#3 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Redis.php line:18]
+[2020-04-29 20:47:06][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 20:50:45][debug][error] : [Uncaught EasySwoole\Redis\Exception\RedisException: ERR Client sent AUTH, but no password is set in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php:2888
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(261): EasySwoole\Redis\Redis->recv()
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(220): EasySwoole\Redis\Redis->auth('easyswoole')
+#2 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(2859): EasySwoole\Redis\Redis->connect()
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(564): EasySwoole\Redis\Redis->sendCommand(Array)
+#4 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(28): EasySwoole\Redis\Redis->set('name', '\xE4\xBB\x99\xE5\xA3\xAB\xE5\x8F\xAF')
+#5 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php line:2888]
+[2020-04-29 20:58:26][debug][error] : [Uncaught EasySwoole\Redis\Exception\RedisException: ERR Client sent AUTH, but no password is set in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php:2888
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(261): EasySwoole\Redis\Redis->recv()
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(220): EasySwoole\Redis\Redis->auth('easyswoole')
+#2 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(2859): EasySwoole\Redis\Redis->connect()
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(564): EasySwoole\Redis\Redis->sendCommand(Array)
+#4 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(28): EasySwoole\Redis\Redis->set('name', '\xE4\xBB\x99\xE5\xA3\xAB\xE5\x8F\xAF')
+#5 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php line:2888]
+[2020-04-29 21:00:10][debug][error] : [Uncaught EasySwoole\Redis\Exception\RedisException: ERR Client sent AUTH, but no password is set in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php:2888
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(261): EasySwoole\Redis\Redis->recv()
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(220): EasySwoole\Redis\Redis->auth('easyswoole')
+#2 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(2859): EasySwoole\Redis\Redis->connect()
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php(564): EasySwoole\Redis\Redis->sendCommand(Array)
+#4 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(28): EasySwoole\Redis\Redis->set('name', '\xE4\xBB\x99\xE5\xA3\xAB\xE5\x8F\xAF')
+#5 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/redis/src/Redis.php line:2888]
+[2020-04-29 21:12:42][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 21:42:20][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 21:43:15][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 21:43:45][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 21:44:49][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 21:45:16][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 21:46:03][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 21:46:13][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 21:46:26][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-29 22:09:29][debug][error] : [Uncaught TypeError: Argument 1 passed to App\WebSocket\WebSocketEvent::App\WebSocket\{closure}() must be an instance of App\Utils\Redis, instance of EasySwoole\Redis\Redis given in /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php:28
+Stack trace:
+#0 [internal function]: App\WebSocket\WebSocketEvent::App\WebSocket\{closure}(Object(EasySwoole\Redis\Redis))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(367): call_user_func(Object(Closure), Object(EasySwoole\Redis\Redis))
+#2 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(30): EasySwoole\Pool\AbstractPool->invoke(Object(Closure))
+#3 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php line:28]
+[2020-04-29 22:10:34][debug][error] : [Uncaught TypeError: Argument 1 passed to App\WebSocket\WebSocketEvent::App\WebSocket\{closure}() must be an instance of App\Utils\Redis, instance of EasySwoole\Redis\Redis given in /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php:28
+Stack trace:
+#0 [internal function]: App\WebSocket\WebSocketEvent::App\WebSocket\{closure}(Object(EasySwoole\Redis\Redis))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(367): call_user_func(Object(Closure), Object(EasySwoole\Redis\Redis))
+#2 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(30): EasySwoole\Pool\AbstractPool->invoke(Object(Closure))
+#3 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php line:28]
+[2020-04-29 22:22:24][debug][error] : [Uncaught TypeError: Argument 1 passed to App\WebSocket\WebSocketEvent::App\WebSocket\{closure}() must be an instance of App\Utils\Redis, instance of EasySwoole\Redis\Redis given in /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php:28
+Stack trace:
+#0 [internal function]: App\WebSocket\WebSocketEvent::App\WebSocket\{closure}(Object(EasySwoole\Redis\Redis))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(367): call_user_func(Object(Closure), Object(EasySwoole\Redis\Redis))
+#2 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(30): EasySwoole\Pool\AbstractPool->invoke(Object(Closure))
+#3 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php line:28]
+[2020-04-30 17:22:08][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-30 17:22:22][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-04-30 17:28:35][debug][error] : [Uncaught TypeError: Argument 1 passed to App\WebSocket\WebSocketEvent::App\WebSocket\{closure}() must be an instance of App\Utils\Redis, instance of EasySwoole\Redis\Redis given in /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php:28
+Stack trace:
+#0 [internal function]: App\WebSocket\WebSocketEvent::App\WebSocket\{closure}(Object(EasySwoole\Redis\Redis))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(367): call_user_func(Object(Closure), Object(EasySwoole\Redis\Redis))
+#2 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(33): EasySwoole\Pool\AbstractPool->invoke(Object(Closure))
+#3 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php line:28]
+[2020-04-30 17:29:35][debug][error] : [Uncaught TypeError: Argument 1 passed to App\WebSocket\WebSocketEvent::App\WebSocket\{closure}() must be an instance of App\Utils\Redis, instance of EasySwoole\Redis\Redis given in /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php:28
+Stack trace:
+#0 [internal function]: App\WebSocket\WebSocketEvent::App\WebSocket\{closure}(Object(EasySwoole\Redis\Redis))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(367): call_user_func(Object(Closure), Object(EasySwoole\Redis\Redis))
+#2 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(30): EasySwoole\Pool\AbstractPool->invoke(Object(Closure))
+#3 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php line:28]
+[2020-04-30 17:29:45][debug][error] : [Uncaught TypeError: Argument 1 passed to App\WebSocket\WebSocketEvent::App\WebSocket\{closure}() must be an instance of App\Utils\Redis, instance of EasySwoole\Redis\Redis given in /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php:28
+Stack trace:
+#0 [internal function]: App\WebSocket\WebSocketEvent::App\WebSocket\{closure}(Object(EasySwoole\Redis\Redis))
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(367): call_user_func(Object(Closure), Object(EasySwoole\Redis\Redis))
+#2 /Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php(30): EasySwoole\Pool\AbstractPool->invoke(Object(Closure))
+#3 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/App/WebSocket/WebSocketEvent.php line:28]
+[2020-04-30 17:34:22][debug][error] : [Uncaught TypeError: Argument 1 passed to EasySwoole\Socket\Dispatcher::getController() must be of the type string, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php on line 75 and defined in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php:156
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php(75): EasySwoole\Socket\Dispatcher->getController(NULL)
+#1 /Users/samsun/Desktop/project/easy_swoole_test/EasySwooleEvent.php(41): EasySwoole\Socket\Dispatcher->dispatch(Object(Swoole\WebSocket\Server), 'PING', Object(Swoole\WebSocket\Frame))
+#2 [internal function]: EasySwoole\EasySwoole\EasySwooleEvent::EasySwoole\EasySwoole\{closure}(Object(Swoole\WebSocket\Server), Object(Swoole\WebSocket\Frame))
+#3 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/easyswoole/src/ServerManager.php(111): call_user_func(Object(Closure), Object(Swoole\WebSocket\Ser at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/socket/src/Dispatcher.php line:156]
+[2020-05-12 17:06:37][debug][error] : [Too few arguments to function App\Config\EvConfig::getConf(), 1 passed in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 19 and exactly 2 expected at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/EvConfig.php line:15]
+[2020-05-12 17:07:13][debug][error] : [Too few arguments to function App\Config\EvConfig::getConf(), 1 passed in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 19 and exactly 2 expected at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/EvConfig.php line:15]
+[2020-05-12 17:07:52][debug][error] : [Too few arguments to function App\Config\EvConfig::getConf(), 1 passed in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 19 and exactly 2 expected at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/EvConfig.php line:15]
+[2020-05-12 17:08:58][debug][error] : [Too few arguments to function App\Config\EvConfig::getConf(), 1 passed in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 19 and exactly 2 expected at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/EvConfig.php line:15]
+[2020-05-12 17:09:35][debug][error] : [Too few arguments to function App\Config\EvConfig::getConf(), 1 passed in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 19 and exactly 2 expected at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/EvConfig.php line:15]
+[2020-05-12 17:09:48][debug][error] : [Too few arguments to function App\Config\EvConfig::getConf(), 1 passed in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 19 and exactly 2 expected at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/EvConfig.php line:15]
+[2020-05-12 17:10:15][debug][notice] : [call_user_func() expects parameter 1 to be a valid callback, non-static method App\Config\Sys::init() should not be called statically at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/EvConfig.php line:21]
+[2020-05-12 17:15:19][debug][error] : [Class App\Config\Sys contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (App\Config\EvConfig::init) at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/sys.php line:19]
+[2020-05-12 17:16:57][debug][error] : [Return value of App\Config\Sys::init() must be of the type array, string returned at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Config/sys.php line:15]
+[2020-05-12 17:33:04][debug][notice] : [Undefined index: k1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:24]
+[2020-05-12 17:33:04][debug][error] : [Argument 1 passed to App\Utils\Tools::dots() must be of the type array, null given, called in /Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php on line 24 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:20]
+[2020-05-12 17:57:28][debug][notice] : [Undefined index: aa1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:26]
+[2020-05-12 17:59:13][debug][notice] : [Undefined index: a1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:26]
+[2020-05-12 18:06:34][debug][notice] : [Undefined index: k1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:26]
+[2020-05-12 18:06:34][debug][notice] : [Undefined index: a1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:26]
+[2020-05-12 18:23:55][debug][notice] : [Undefined index: k1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:25]
+[2020-05-12 18:23:55][debug][notice] : [Undefined index: a1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:25]
+[2020-05-12 18:24:41][debug][notice] : [Undefined index: k1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:26]
+[2020-05-12 18:24:41][debug][notice] : [Undefined index: a1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:26]
+[2020-05-12 18:34:32][debug][notice] : [Array to string conversion at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:24]
+[2020-05-12 18:34:32][debug][notice] : [Array to string conversion at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:24]
+[2020-05-12 18:34:32][debug][notice] : [Array to string conversion at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:24]
+[2020-05-12 18:36:02][debug][notice] : [Array to string conversion at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:24]
+[2020-05-12 18:42:40][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:42:40][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:43:05][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:43:05][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:43:14][debug][notice] : [Undefined index: c1 at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Utils/Tools.php line:24]
+[2020-05-12 18:44:09][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:44:09][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:44:27][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:44:27][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:44:34][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:44:34][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:44:49][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:44:49][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:47:51][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:47:51][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:49:53][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:49:53][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:50:04][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:50:04][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:50:55][debug][warning] : [Illegal offset type in isset or empty at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Message/Status.php line:124]
+[2020-05-12 18:50:55][debug][warning] : [Swoole\Http\Response::status() expects parameter 1 to be int, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:43]
+[2020-05-12 18:51:49][debug][error] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 20 at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:76]
+[2020-05-12 18:51:51][debug][error] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 20 at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:76]
+[2020-05-12 18:52:17][debug][error] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 20 at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:76]
+[2020-05-12 18:52:19][debug][error] : [Argument 1 passed to EasySwoole\Http\Response::write() must be of the type string, array given, called in /Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php on line 20 at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/http/src/Response.php line:76]
+[2020-05-13 10:20:38][debug][error] : [syntax error, unexpected '$x' (T_VARIABLE) at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:20]
+[2020-05-21 14:49:13][debug][notice] : [Undefined index: password at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:20]
+[2020-05-21 15:18:40][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:18]
+[2020-05-21 15:18:55][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:18]
+[2020-05-21 15:19:25][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:18]
+[2020-05-21 15:19:32][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:18]
+[2020-05-21 15:23:29][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:20]
+[2020-05-21 15:39:44][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:24]
+[2020-05-21 15:47:48][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:43]
+[2020-05-21 15:58:15][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:43]
+[2020-05-21 16:02:48][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:48]
+[2020-05-21 16:12:34][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:44]
+[2020-05-21 16:13:51][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:44]
+[2020-05-21 16:15:01][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:44]
+[2020-05-21 16:15:01][debug][notice] : [Undefined index: username at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:64]
+[2020-05-21 16:15:37][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:44]
+[2020-05-21 16:22:17][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 16:27:24][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 16:29:45][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 16:29:45][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:60]
+[2020-05-21 16:33:42][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 16:33:42][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:60]
+[2020-05-21 16:34:51][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 16:34:52][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:60]
+[2020-05-21 16:35:22][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 16:35:22][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:60]
+[2020-05-21 16:37:12][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:60]
+[2020-05-21 16:37:36][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 16:37:36][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:60]
+[2020-05-21 16:37:45][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:60]
+[2020-05-21 16:41:00][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/UserModel.php line:60]
+[2020-05-21 17:09:15][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:10:32][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:12:32][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:13:29][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:14:13][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:14:27][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:14:35][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:15:00][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:15:09][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:19:31][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:19:53][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:23:30][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:28:27][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:28:28][debug][warning] : [strtolower() expects parameter 1 to be string, array given at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/mysqli/src/QueryBuilder.php line:1274]
+[2020-05-21 17:28:28][debug][notice] : [Array to string conversion at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/mysqli/src/QueryBuilder.php line:1103]
+[2020-05-21 17:28:55][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:29:26][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:29:46][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:30:23][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:34:25][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:36:08][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:36:20][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:36:30][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:37:21][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:39:39][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:39:51][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:51:26][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:53:31][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:53:54][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:54:02][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:56:01][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:57:10][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 17:58:06][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 18:03:36][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 18:55:07][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 20:42:38][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 20:43:23][debug][error] : [Uncaught EasySwoole\ORM\Exception\Exception: SQLSTATE[HY000] [2002] Operation timed out in /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/orm/src/Db/MysqlPool.php:22
+Stack trace:
+#0 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(294): EasySwoole\ORM\Db\MysqlPool->createObject()
+#1 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(252): EasySwoole\Pool\AbstractPool->initObject()
+#2 /Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/pool/src/AbstractPool.php(226): EasySwoole\Pool\AbstractPool->keepMin(5)
+#3 {main}
+  thrown at file:/Users/samsun/Desktop/project/easy_swoole_test/vendor/easyswoole/orm/src/Db/MysqlPool.php line:22]
+[2020-05-21 20:47:19][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 20:53:04][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:18]
+[2020-05-21 21:05:37][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:07:50][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:11:03][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:11:13][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:11:56][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:24:03][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:24:30][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:24:38][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:25:29][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:27:04][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:27:11][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:17]
+[2020-05-21 21:28:34][debug][warning] : [Declaration of App\HttpController\Api\User::index($token) should be compatible with EasySwoole\Http\AbstractInterface\Controller::index() at file:/Users/samsun/Desktop/project/easy_swoole_test/App/HttpController/Api/User.php line:16]
+[2020-05-21 21:39:49][debug][error] : [Default value for parameters with a int type can only be int or NULL at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Exception/BaseException.php line:20]
+[2020-05-22 10:47:42][debug][warning] : [in_array() expects parameter 2 to be array, object given at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Common/LoginMiddleware.php line:27]
+[2020-05-22 10:48:01][debug][warning] : [in_array() expects parameter 2 to be array, object given at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Common/LoginMiddleware.php line:27]
+[2020-05-22 11:07:54][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/User/UserModel.php line:91]
+[2020-05-22 11:08:00][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/User/UserModel.php line:91]
+[2020-05-22 11:08:10][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/User/UserModel.php line:91]
+[2020-05-22 11:27:57][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/User/UserModel.php line:91]
+[2020-05-22 11:28:19][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/User/UserModel.php line:91]
+[2020-05-22 11:28:24][debug][notice] : [Trying to get property 'id' of non-object at file:/Users/samsun/Desktop/project/easy_swoole_test/App/Model/User/UserModel.php line:75]
